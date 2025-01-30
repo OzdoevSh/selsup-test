@@ -39,7 +39,7 @@ const ParamEditor = ({ params, model }: Props) => {
   };
 
   return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '4px'}}>
       {params.map(param => (
         <label key={param.id}>
           {param.name}: 
